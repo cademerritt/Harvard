@@ -1,0 +1,13 @@
+
+
+
+a = input("Please enter a phrase: ")
+b=a.split(" ")
+for _ in range(len(b)):
+    print(f"{b[_]}",end="")
+    if _<len(b)-1:
+        print("...",end="")
+    
+
+
+
